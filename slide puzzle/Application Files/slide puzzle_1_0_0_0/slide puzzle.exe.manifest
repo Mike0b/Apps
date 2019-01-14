@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="slide puzzle.exe" version="1.0.0.0" publicKeyToken="096c199ab14f3da4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="slide puzzle" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="slide puzzle.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="slide puzzle.exe" size="127472">
+      <assemblyIdentity name="slide puzzle" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mR9tgsK+kH9LjwcRuX2er3penAC0PQzSE6n36H/9DmI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="slide puzzle.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=XAVIERHS\o'brienm19" issuerKeyHash="bc2ca367a705d673c08a9aee733a60afa0957e39" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IvqnHxljq2Se1d5SZxNv+YsTFjkuEcG4oh76ez491Jk=</DigestValue></Reference></SignedInfo><SignatureValue>WqvL9/VFvUk4jw7bgdmQca7OzZ/25JUNelh+Y8IRR0db+5M7qR4I2f8ggD74RT8tekeIqei3dPeUcxQ1Yry1d9MmXYo3tFiaU9kFi9qRNm+VzSwkik8/BJIwnjz2A3/77dEy0yb10JJslEYnoJ5pi1kiYGBeByGbpB75ktkSIuk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ssLwqpWQ4DqOuYbNRUqUSVuYSCRd5wAExQf8xEGKyB6c1GazXtVH+skk2zETPuHnrQvsCQVjdJXJT41S+/mLLQi3hGYz2i+93b9zLv0fQgW4HfCoGpgqU41vwJvSeJoKB2rbYIAe/VTo9XPBfOAkznhpMee3Q+2mqXCzrtiGg90=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="99d43d3e7bfa1ea2b8c1112e3916138bf96f136752ded59e64ab63191fa7fa22" Description="" Url=""><as:assemblyIdentity name="slide puzzle.exe" version="1.0.0.0" publicKeyToken="096c199ab14f3da4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=XAVIERHS\o'brienm19</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BV58GZWnxw7sMAniQAVZlWC3FEB37TbsJiVp15+fO3s=</DigestValue></Reference></SignedInfo><SignatureValue>iUAuE4N/HfryEwVAqeYXRqZUf2iyaQ6h70M1GzNnf+vM34vOanTgtpq2FweNAz5/f0fvRq3Khlr856vnc6syRFV3yvoIm/0c6TVfK3MBPfOt8m0Kt3bGjBgMREbJu/RT5L++KBmkl/s6PNfriLYXtc3RAly/I7WG6tYFWiiKMBs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ssLwqpWQ4DqOuYbNRUqUSVuYSCRd5wAExQf8xEGKyB6c1GazXtVH+skk2zETPuHnrQvsCQVjdJXJT41S+/mLLQi3hGYz2i+93b9zLv0fQgW4HfCoGpgqU41vwJvSeJoKB2rbYIAe/VTo9XPBfOAkznhpMee3Q+2mqXCzrtiGg90=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQejznqufNDq9PrWrhlprenDANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAWABBAFYASQBFAFIASABTAFwAbwAnAGIAcgBpAGUAbgBtADEAOTAeFw0xOTAxMTQxODMwNTRaFw0yMDAxMTUwMDMwNTRaMDExLzAtBgNVBAMeJgBYAEEAVgBJAEUAUgBIAFMAXABvACcAYgByAGkAZQBuAG0AMQA5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCywvCqlZDgOo65hs1FSpRJW5hIJF3nAATFB/zEQYrIHpzUZrNe1Uf6ySTbMRM+4eetC+wJBWN0lclPjVL7+YstCLeEZjPaL73dv3Mu/R9CBbgd8KgamCpTjW/Am9J4mgoHattggB79VOj1c8F84CTOeGkx57dD7aapcLOu2IaD3QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABX0PtydhIYsOmJoKUmoDhui0a8PXqbAJMiDtBPRN3afReU7sY8bR86sLaCscYJVk1iWSnmMk/b/nGtKHYiT3Uy56e1sUefcOD7DhCQjnSKtIsfrbsLnt85T8HIGY7q6y7+bqSfZvNtDzdGRlTc1ZLiKUmBv1Q4of8a62sr2PaEe</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
